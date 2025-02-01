@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+}
+
+[data-theme="light"] {
+  --primary: white;
+  --secondary: #73c2fb;
+}
+
+[data-theme="dark"] {
+  --primary: #121212;
+  --secondary: #73c2fb;
+}
